@@ -655,6 +655,8 @@ function install_ruby_rvm
     fi
 }
 #### MAIN ###
+print_error "current version installer installs dependencies not compatible with latest version of metasploit"
+exit 1
 [[ ! $1 ]] && { usage; exit 0; }
 #Variable with log file location for trobleshooting
 LOGFILE="/tmp/msfinstall$NOW.log"
