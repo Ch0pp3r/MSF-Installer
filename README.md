@@ -1,3 +1,5 @@
+# current version does not work with the latest version of MSF will update soon!
+
 MSF-Installer
 =============
 
